@@ -8,6 +8,6 @@
 * Visit the [Visual Studio Code Website](https://code.visualstudio.com/) and follow the download instructions for your operating system
 * After following the download instructions, VScode should look like this:
 
-![VScode Screenshot](/cse15l-lab-reports/Screenshot (215).png)
+![Image](/cse15l-lab-reports/Screenshot (215).png)
 
 
