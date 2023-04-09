@@ -28,21 +28,7 @@
 * Now you will be prompted to enter the password for your account. (Note : When you start typing, there will be no changes on the screen, but type your entire password and press enter to continue)
 * If connected successfully, your terminal should look like this:
 
-```
-Hello cs15lsp23XX, you are currently logged into ieng6-202.ucsd.edu
-
-You are using 0% CPU on this system
-
-Cluster Status 
-Hostname     Time    #Users  Load  Averages  
-ieng6-201   14:45:01   9  1.00,  1.13,  1.11
-ieng6-202   14:45:01   5  4.01,  4.29,  4.24
-ieng6-203   14:45:01   7  1.28,  1.32,  1.23
-
-
-Sun Apr 09, 2023  2:45pm - Prepping cs15lsp23
-
-```
+![Image](TerminalAfterConnection.png)
 
 * You have successfuly set up a remote connection
 
