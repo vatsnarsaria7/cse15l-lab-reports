@@ -11,3 +11,15 @@
 ![Image](VSCodeScreenshot.png)
 
 
+## Remotely Connecting
+*This step involves using VScode/terminal to connect and work on a remote computer over the internet*
+
+* To install Git, windows users must access this [link](https://gitforwindows.org/) and follow download instructions
+* Upon installation, you will need to set git bash as your default terminal. Instructions for this can be found [here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
+* If the steps were followed correctly, your terminal (CTRL + SHIFT + ') should look like this :
+
+![Image](TerminalPreview.png)
+
+
+
+
