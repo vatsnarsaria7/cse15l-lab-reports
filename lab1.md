@@ -24,4 +24,5 @@
 
 `$ ssh cs15lsp23XX@ieng.ucsd.edu` (XX will be replaced by the corresponding letters from your account)
 
+* After you run this command, you will be asked to answer an authenticity question, which would look like this:
 
