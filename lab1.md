@@ -37,6 +37,14 @@
 
 *Now you can run different commands on both your computer and the remote computer*
 
+* Here is a [list of commands](https://tutorials.codebar.io/command-line/introduction/tutorial.html) you can try
+
+* You are encouraged to try different commands and take note of the things that lead to errors
+
+* There are two ways to log out of the remote server :
+** CTRL + D
+** Run `exit` in the terminal
+
 
 
 
