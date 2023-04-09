@@ -44,5 +44,13 @@ Sun Apr 09, 2023  2:45pm - Prepping cs15lsp23
 
 ```
 
+* You have successfuly set up a remote connection
+
+
+### Trying some commands
+
+*Now you can run different commands on both your computer and the remote computer*
+
+
 
 
