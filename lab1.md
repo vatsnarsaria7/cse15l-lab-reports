@@ -1,4 +1,6 @@
-# Remote Access and FileSystem (Week 1)
+# Lab Report 1
+
+## Remote Access and FileSystem (Week 1)
 
 *Welcome to CSE 15L! This tutorial will help you log into a course-specific account on ieng6*
 
