@@ -22,7 +22,7 @@
 
 * In order to use ssh, you will have to type the following command in the terminal:
 
-`$ ssh cs15lsp23XX@ieng.ucsd.edu` (XX will be replaced by the corresponding letters from your account)
+  `$ ssh cs15lsp23XX@ieng.ucsd.edu` (XX will be replaced by the corresponding letters from your account)
 
 * After you run this command, you will be asked to answer an authenticity question, to which you should respond yes.
 * Now you will be prompted to enter the password for your account. (Note : When you start typing, there will be no changes on the screen, but type your entire password and press enter to continue)
