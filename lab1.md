@@ -3,7 +3,7 @@
 *Welcome to CSE 15L! This tutorial will help you log into a course-specific account on ieng6*
 
 
-## Installing VScode
+### Installing VScode
 
 * Visit the [Visual Studio Code Website](https://code.visualstudio.com/) and follow the download instructions for your operating system
 * After following the download instructions, VScode should look like this:
@@ -11,7 +11,7 @@
 ![Image](VSCodeScreenshot.png)
 
 
-## Remotely Connecting
+### Remotely Connecting
 *This step involves using VScode/terminal to connect and work on a remote computer over the internet*
 
 * To install Git, windows users must access this [link](https://gitforwindows.org/) and follow download instructions
