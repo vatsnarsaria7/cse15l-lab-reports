@@ -42,8 +42,9 @@
 * You are encouraged to try different commands and take note of the things that lead to errors
 
 * There are two ways to log out of the remote server :
-** CTRL + D
-** Run `exit` in the terminal
+
+        1. CTRL + D
+        2. Run `exit` in the terminal
 
 
 
