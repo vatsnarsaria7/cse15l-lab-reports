@@ -21,6 +21,6 @@
 ![Image](TerminalPreview.png)
 
 *In order to use ssh, you will have to type the following command in the terminal:
-'$ ssh cs15lsp23XX@ieng.ucsd.edu' (XX will be replaced by the corresponding letters from your account)
+`$ ssh cs15lsp23XX@ieng.ucsd.edu` (XX will be replaced by the corresponding letters from your account)
 
 
