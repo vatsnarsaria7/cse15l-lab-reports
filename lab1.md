@@ -45,10 +45,10 @@
 
 * In the screenshot below, you can see some of the different commands I tried
      
-     1. pwd : This stands for print working directory, and it prints the current direcotry you are in
-     2. ls : This stands for list, and it prints out the contents of the directory you are in
-     3. cd : This stands for change directory, and using this with '..' takes you back one directory
-     4. 
+     1. *pwd* : This stands for print working directory, and it prints the current direcotry you are in
+     2. *ls* : This stands for list, and it prints out the contents of the directory you are in
+     3. *cd* : This stands for change directory, and using this with '..' takes you back one directory
+     
 
 ![Image](terminalAfterCommands.png)
 
