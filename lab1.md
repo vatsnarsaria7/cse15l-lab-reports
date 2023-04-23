@@ -51,6 +51,12 @@
      
 * You can refer to the screenshot below, and the link for commands provided above to try different commands
 
+* Here are a few suggestions for you to try, and what they do :
+
+    1. mkdir : This stands for make directory, which creates a new directory
+    2. cd../.. : This is a way to run cd, and it takes you back two directories instead of one
+    3. Your turn! Find different commands you can run and try to figure out what they do! Do you encounter any errors? 
+
 ![Image](terminalAfterCommands.png)
 
 * There are two ways to log out of the remote server :
