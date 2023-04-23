@@ -49,6 +49,7 @@
      2. *ls* : This stands for list, and it prints out the contents of the directory you are in
      3. *cd* : This stands for change directory, and using this with '..' takes you back one directory
      
+* You can refer to the screenshot below, and the link for commands provided above to try different commands
 
 ![Image](terminalAfterCommands.png)
 
