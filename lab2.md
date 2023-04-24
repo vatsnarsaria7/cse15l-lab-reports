@@ -4,7 +4,7 @@
 
 ## Part 1
 
-* The code consists of 3 .java files
+* The code consists of 2 files
 
 ```
 #StringServer.java
@@ -103,16 +103,4 @@ public class Server {
 
 ```
 
-```
-#SearchEngine.java
-
-import java.net.URI;
-
-class SearchEngine implements URLHandler{
-
-    public String handleRequest(URI url) {
-            return "";
-}
-}
-```
 
