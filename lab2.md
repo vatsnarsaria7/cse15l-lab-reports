@@ -105,8 +105,8 @@ public class Server {
 
 * Here are two screenshots that show results of the path /add-message?s=<string>
     
-    ![Image](Screenshot (229).png)	
+    ![Image](Screenshot1.png)	
     
-    ![Image](Screenshot (230).png)	
+    ![Image](Screenshot2.png)	
 
 
