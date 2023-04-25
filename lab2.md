@@ -1,6 +1,6 @@
 # Lab report 2
 
-**This lab report is split into 3 parts**
+**This lab report consists of 3 parts**
 
 ## Part 1
 
@@ -123,3 +123,60 @@ public class Server {
     The server has already been started, and there is already text from the previous query being displayed. When I entered
     `/add-message?s=This is lab report 2` in the url, the same process from the previous screenshot was used to determine       the path and query. param[1] was holding the String "This is lab report 2". The same steps are repeated and the string     is returned in a new line. 
 
+## Part 2
+
+* The faliure inducing code : 
+```
+@Test
+  public void testReversedWithContent() {
+    int[] input2 = {1,2,3,4,5,6};
+    int[] x = new int[] {6,5,4,3,2,1};
+    assertArrayEquals( x, ArrayExamples.reversed(input2));
+  }
+
+ ```
+ * An input that does not induce a faliure :
+```
+  @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
+* Upon running the two tests in the screenshot below, it was evident that the method needed correction
+
+    ![Image](Screenshot3.png)
+    
+* The code needed a few minor changes to be corrected
+
+```
+#before
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+
+```
+* The first correction made to the code was that in the 4th line, instead of overwriting the values of arr[], the code was   corrected so that the values from arr[] were added to newArray in reverse order.
+ 
+* The second correction was that the return statement was changed to return newArray instead of arr, since newArray           contains the reversed list.
+
+
+```
+#after
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+
+```
+
+## Part 3
+
+Something I learned from lab in week2 and 3 was how a web server can be started. I also learned how we can write code that can read the URL and identify what query is being run. Lastly, I learned how to code for a server to read a query and perform the query by displaying a given string on the webpage.
