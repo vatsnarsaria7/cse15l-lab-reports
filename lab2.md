@@ -128,7 +128,7 @@ public class Server {
 * The faliure inducing code : 
 
 
-```
+````
 @Test
   public void testReversedWithContent() {
     int[] input2 = {1,2,3,4,5,6};
@@ -136,7 +136,7 @@ public class Server {
     assertArrayEquals( x, ArrayExamples.reversed(input2));
   }
 
- ```
+ ````
  
  * An input that does not induce a faliure :
  
@@ -154,7 +154,7 @@ public class Server {
     
 * The code needed a few minor changes to be corrected
 
-```
+````
 #before
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -164,11 +164,15 @@ public class Server {
     return arr;
   }
 
-```
+````
+
+
 
 * The first correction made to the code was that in the 4th line, instead of overwriting the values of arr[], the code was   corrected so that the values from arr[] were added to newArray in reverse order.
  
 * The second correction was that the return statement was changed to return newArray instead of arr, since newArray           contains the reversed list.
+
+
 
 
 ```
