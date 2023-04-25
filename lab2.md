@@ -103,7 +103,9 @@ public class Server {
 
 ```
 
-* Here are two screenshots that show results of the path /add-message?s=<string>
+* Here are two screenshots that show results the following paths : 
+* /add-message?s=CSE15L IS FUN! *
+* /add-message?s=This is lab report 2 *
     
     ![Image](Screenshot1.png)	
     
