@@ -103,7 +103,7 @@ public class Server {
 
 ```
 
-* Here are two screenshots that show results the following paths : 
+* Here are two screenshots that show results of the following paths : 
 
 
     * */add-message?s=CSE15L IS FUN!*
