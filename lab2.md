@@ -104,11 +104,22 @@ public class Server {
 ```
 
 * Here are two screenshots that show results the following paths : 
-* */add-message?s=CSE15L IS FUN!*
-* */add-message?s=This is lab report 2*
-    
+
+
+    * */add-message?s=CSE15L IS FUN!*
     ![Image](Screenshot1.png)	
     
+    In the screenshot above, when the Server is started, the main method is run, and the port number is read from the           terminal. Then the .start() method starts the server at the provided host
+    
+    Once the server is started, `/add-message?s=CSE15L IS FUN!` is added to the URL. The handleRequest mthod is then called     which takes in url of type URI. The purpose of this method is to read the url and determine if a path and/or query is       present. If not, it displays a default output, which in this case is an empty string.
+    
+    The .getPath() method obtains the path part of the url and using the .equals method, determines that the path is to add     a message. Then the getQuery method obtains the query part of the url. The query is then split at '=' to obtain the         array 'param'. The string is then concatenated with "\n" so that the next output is returned on a new line. In this         case, the element at param[1] is "CSE15L IS FUN!", which is then returned and displayed on the webpage.
+    
+    
+    
+    * */add-message?s=This is lab report 2*
     ![Image](Screenshot2.png)	
-
+    
+    The server has already been started, and there is already text from the previous query being displayed. When I entered
+    `/add-message?s=This is lab report 2` in the url, the same process from the previous screenshot was used to determine       the path and query. param[1] was holding the String "This is lab report 2". The same steps are repeated and the string     is returned in a new line. 
 
