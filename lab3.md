@@ -52,7 +52,6 @@ This was the result on the terminal:
 
 This shows that each line of the text file is now numbered, this is helpful because it makes it easier to refer to the text because each line has a corresponding number.
 
-
 ### The second option for the `less` command is `-X`
 
 This option leaves file contents on the screen even when less exits
