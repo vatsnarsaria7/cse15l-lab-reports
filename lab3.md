@@ -82,4 +82,43 @@ This shows that even when less exits, the file contents remained on the terminal
 
 
 
+### The third option for the `less` command is `-i`
+
+This option ignores case sensitivity during search. This is better explained in the two examples below. To help understand the use of this command, one example is run without the `-i` option, and the second is run with the `-i` command
+
+Upon running the commands : 
+
+```
+less File1.txt
+/report
+```
+The terminal could not find 'report' in the file, however, we know that File1.txt contains 'Report' in line 2. (Take not of the cases)
+
+![Image](LessEx5.png)
+
+![Image](LessEx6.png)
+
+
+Upong running the following commands : 
+
+```
+less -i File1.txt
+/report
+```
+The terminal was able to find 'Report' (captial R) even though the string searched for was 'report' (lower case r)
+
+![Image](LessEx5.png)
+
+![Image](LessEx7.png)
+
+This shows that using the option `-i` is able to search for a string in a file regardless of the case sensitivity. This is useful because it enables us to search for all instances of a string, regardless of the case, instead of using multiple search queries for all possible cases.
+
+
+
+
+
+
+
+
+
 
