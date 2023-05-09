@@ -53,7 +53,33 @@ This was the result on the terminal:
 This shows that each line of the text file is now numbered, this is helpful because it makes it easier to refer to the text because each line has a corresponding number.
 
 
-### The second option is 
+### The second option for the `less` command is `-X`
+
+This option leaves file contents on the screen even when less exits
+
+Here are two examples : 
+
+Upon running the command : 
+
+```
+less -X File1.txt
+```
+This was the result on the terminal
+
+![Image](LessEx3.png)
+
+
+Upon running the command : 
+
+```
+less -X File2.txt
+```
+This was the result on the terminal : 
+
+![Image](LessEx4.png)
+
+
+This shows that even when less exits, the file contents remained on the terminal. This is helpful because it makes it easy to write commands based on the file contents, since the contents visible.
 
 
 
