@@ -114,6 +114,40 @@ The terminal was able to find 'Report' (captial R) even though the string search
 This shows that using the option `-i` is able to search for a string in a file regardless of the case sensitivity. This is useful because it enables us to search for all instances of a string, regardless of the case, instead of using multiple search queries for all possible cases.
 
 
+### The fourth option for the `less` command is `-s`
+
+The purpose of this option is to merge consecutive blank lines into a single blank line. Two examples will be used to demonstrate how this option works. The first example will show how blank spaces are displayed. The second example will show how the spaces are merged into one single blank line.
+
+
+Upon running the following command : 
+
+```
+less File3.txt
+```
+The terminal displays the file contents : 
+
+![Image](LessEx8.png)
+
+We can see that there are consecutive lines of blank spaces in the file.
+
+Upon running the following command :
+
+```
+less -s File3.txt
+```
+![Image](LessEx9.png)
+
+We can see that the blank spaces have been merged into a single blank line
+
+
+This option is useful because it makes the file easier to read in the terminal. Blank spaces take up a lot of space in the terminal, and using this option makes the text file display seem more consice and easier to read.
+
+
+
+
+
+
+
 
 
 
