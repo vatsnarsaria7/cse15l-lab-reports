@@ -50,6 +50,11 @@ This was the result on the terminal:
 
 ![Image](LessEx2.png)	
 
+This shows that each line of the text file is now numbered, this is helpful because it makes it easier to refer to the text because each line has a corresponding number.
+
+
+### The second option is 
+
 
 
 
