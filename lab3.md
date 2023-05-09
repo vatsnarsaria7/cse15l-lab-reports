@@ -13,7 +13,7 @@ less [OPTIONS] [filename or file location]
 ```
 
 
-### The first option for the `less` command is `-N`
+### The first option for the `less` command is `-N` (Source [here](https://linuxize.com/post/less-command-in-linux/#how-to-use-less)) 
 
 This option displays the line numbers at the beginning of each line
 
@@ -52,7 +52,7 @@ This was the result on the terminal:
 
 This shows that each line of the text file is now numbered, this is helpful because it makes it easier to refer to the text because each line has a corresponding number.
 
-### The second option for the `less` command is `-X`
+### The second option for the `less` command is `-X`(Source [here](https://linuxize.com/post/less-command-in-linux/#how-to-use-less)) 
 
 This option leaves file contents on the screen even when less exits
 
@@ -82,7 +82,7 @@ This shows that even when less exits, the file contents remained on the terminal
 
 
 
-### The third option for the `less` command is `-i`
+### The third option for the `less` command is `-i` (Source [here](https://phoenixnap.com/kb/less-command-in-linux)) 
 
 This option ignores case sensitivity during search. This is better explained in the two examples below. To help understand the use of this command, one example is run without the `-i` option, and the second is run with the `-i` command
 
@@ -114,7 +114,7 @@ The terminal was able to find 'Report' (captial R) even though the string search
 This shows that using the option `-i` is able to search for a string in a file regardless of the case sensitivity. This is useful because it enables us to search for all instances of a string, regardless of the case, instead of using multiple search queries for all possible cases.
 
 
-### The fourth option for the `less` command is `-s`
+### The fourth option for the `less` command is `-s` (Source [here](https://phoenixnap.com/kb/less-command-in-linux)) 
 
 The purpose of this option is to merge consecutive blank lines into a single blank line. Two examples will be used to demonstrate how this option works. The first example will show how blank spaces are displayed. The second example will show how the spaces are merged into one single blank line.
 
