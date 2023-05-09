@@ -13,3 +13,9 @@ less [OPTIONS] [filename or file location]
 ```
 
 
+* The first option for the `less` command is `-N`
+
+This option displays the line numbers at the beginning of each line
+
+Here are two examples : 
+
