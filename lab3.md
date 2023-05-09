@@ -9,5 +9,7 @@ less command.
 The general syntax for `less` is :
 
 ```
-less [OPTIONS] filename
+less [OPTIONS] [filename or file location]
 ```
+
+
