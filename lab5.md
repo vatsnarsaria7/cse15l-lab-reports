@@ -1,11 +1,19 @@
-#Lab report 5
+# Lab report 5
 
 ## This is the student's post explaining the error they are trying to debug
 
+Student's code
 ![Image](studentQpt1.png)
+
+Student's initial code
 ![Image](studentErrorCodept1.png)
+
+Student's test
 ![Image](JunitTestBash.png)
+
+Student's tests failing
 ![Image](studentErrorTestpt1.png)
+
 ![Image](studentQ1pt2.png)
 
 ## Upon reviewing this, this is the TA's response
@@ -28,7 +36,7 @@ $ javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore ArrayTests
 ```
 The content of the files before fixing the bug can be seen in the screenshot above. The file structure was that 
-there were 3 files, ArrayExamples.java contained the 3 method written, ArrayExamplesTest.java which contained the test cases
+there were 3 files, ArrayExamples.java contained the 3 method written, ArrayTests.java which contained the test cases
 and bash.sh which contained the bash script for Junit Testing.
 The bugs were correctly identified by the student based on the TA's guidelines. In the reversedInPlace method
 the student changed the for loop to iterate arr.length/2 times, and used a temp variable to reverse the order.
