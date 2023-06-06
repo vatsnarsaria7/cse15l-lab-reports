@@ -2,28 +2,37 @@
 
 ## This is the student's post explaining the error they are trying to debug
 
-Student's code
+### Student's code
+
 ![Image](studentQpt1.png)
 
-Student's initial code
+### Student's initial code
+
 ![Image](studentErrorCodept1.png)
 
-Student's test
+### Student's test
+
 ![Image](JunitTestBash.png)
 
-Student's tests failing
+### Student's tests failing
+
 ![Image](studentErrorTestpt1.png)
+
 
 ![Image](studentQ1pt2.png)
 
+
 ## Upon reviewing this, this is the TA's response
+
 
 ![Image](TAGuide'.png)
 
 
 ## Student's code and testers after running bash script for Junit Testing
 
+
 ![Image](StudentFixedCode.png)
+
 
 ![Image](TesterAfterFix.png)
 
